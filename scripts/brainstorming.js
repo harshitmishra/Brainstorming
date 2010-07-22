@@ -1,6 +1,7 @@
 // JavaScript Document
 
 		var count=1;
+		var jarray=new Array(100);
 	function init(){
 		var text1 = new Element('input', {id:'text', size: '30'});
         var add = new Element('button', {'class': 'add', id:'addl',value:'ADD'});
@@ -17,6 +18,7 @@
 		divt.id = "div"+count;
 		divt.className ="divi";
 		divt.innerHTML = document.getElementById("text").value;
+		jarray[count]=document.getElementById("text").value;
 		divt.contentEditable='true';
 		var b1=document.createElement('input');
                 var b1Id='b'+count+'1';
@@ -40,11 +42,19 @@
 			document.getElementById('data-entry').removeChild(document.getElementById('text'));
             document.getElementById('data-entry').removeChild(document.getElementById('addl'));
 			document.getElementById('data-entry').removeChild(document.getElementById('fin'));
+			alert(jarray);
+			/*var fso = new ActiveXObject("Scripting.FileSystemObject");
+            varFileObject = fso.OpenTextFile("D:\\harshit.txt", 2, true,0); // 2=overwrite, true=create if not exist, 0 = ASCII
+			varFileObject.write("hsgha");
+			varFileObject.close();*/
+			jarray.toJSON();
+			alert(jarray);
 			//d.removeChild(document.getElementById("data));
 									  
 									  });
 									  
 									  
+		
 		}
 	function removeElement()
         {

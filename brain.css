@@ -1,0 +1,30 @@
+/* CSS Document */
+
+.add {
+       
+        width: 75px;
+	    height: 20px;
+		background: url('button3.jpg') no-repeat;
+        text-decoration:none;
+        font-size:2px;
+        padding: 10px;
+        color: white;
+}
+.finish {
+        
+        width: 75px;
+	    height: 20px;
+		background: url('button4.jpg') no-repeat;
+        text-decoration:none;
+        font-size:2px;
+        padding: 10px;
+        color: white;
+}
+.divi
+{
+    border: 1px groove;
+	background-color: #FFCC99;
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	}

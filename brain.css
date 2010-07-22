@@ -20,11 +20,32 @@
         padding: 10px;
         color: white;
 }
+.prin{
+width: 85px;
+	    height: 20px;
+		background: url('button5.jpg') no-repeat;
+        text-decoration:none;
+        font-size:2px;
+        padding: 10px;
+        color: white;
+		}
+.load{
+width: 75px;
+	    height: 20px;
+		background: url('button6.jpg') no-repeat;
+        text-decoration:none;
+        font-size:2px;
+        padding: 10px;
+        color: white;
+		}
+		
 .divi
 {
     border: 1px groove;
 	background-color: #FFCC99;
 	display: inline-block;
 	width: 100px;
-	height: 50px;
+	height: 70px;
+	background-attachment:fixed;
+	
 	}
